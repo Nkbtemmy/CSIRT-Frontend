@@ -1,0 +1,19 @@
+# Ignore node_modules (they'll be included later during the image build)
+node_modules
+
+# Ignore build artifacts
+build
+dist
+.next
+.nuxt
+package-lock.json
+
+# Ignore development tools and files
+.vscode
+.git
+.gitignore
+.github
+.npmrc
+.yarnrc
+
+# package-lock.json
